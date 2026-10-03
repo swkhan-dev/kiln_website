@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kiln &amp; Crust — Wood-Fired Pizza in Austin, TX</title>
+  <meta name="description" content="Oak-fired Neapolitan-style pizza, small plates and cocktails in East Austin. Walk in for a slice of the fire or reserve a table for date night.">
+  <meta name="theme-color" content="#14110F">
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ───────────── Header ───────────── -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Kiln &amp; Crust, back to top">
+        <img src="assets/logo-mark.svg" alt="" width="28" height="28">
+        <span>Kiln <em>&amp;</em> Crust</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-ember btn-sm header-cta" href="#reserve" data-reserve>Reserve a table</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ───────────── Hero ───────────── -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Wood-fired pizza · East Austin</p>
+          <h1 class="display"><span>Oak fire.</span><span>Ninety seconds.</span><span><em>No shortcuts.</em></span></h1>
+          <p class="lede">
+            Blistered crusts, Texas-grown toppings, and a 900° oven that sets the mood.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-ember" href="#reserve" data-reserve>Reserve a table</a>
+            <a class="btn btn-ghost" href="#menu">See the menu</a>
+          </div>
+          <p class="hero-meta mono">Tue–Sun from 5pm · Walk-ins welcome</p>
+        </div>
+
+        <div class="hero-arch" aria-hidden="false">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <figure class="arch arch-hero">
+            <img
+              src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1200&h=1500&q=75"
+              alt="A blistered margherita pizza resting on a wooden board in front of a glowing wood-fired oven"
+              width="1200" height="1500" fetchpriority="high">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Menu ───────────── -->
+    <section class="section menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The menu</p>
+          <h2 class="display-2" id="menu-title">Out of the fire</h2>
+          <p class="section-sub">Short list, done right. Toppings change with what Central Texas is growing.</p>
+        </header>
+
+        <!-- Rendered from data/menu.js by js/main.js -->
+        <div class="menu-body" data-menu>
+          <p class="menu-fallback">
+            The menu couldn't load. Call us at <a href="tel:+15125550147">(512) 555-0147</a> and we'll read it to you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Kitchen story ───────────── -->
+    <section class="section story" id="story" aria-labelledby="story-title">
+      <div class="container story-inner">
+        <figure class="arch arch-story reveal">
+          <img
+            src="https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?auto=format&fit=crop&w=900&h=1200&q=75"
+            alt="A hand lifting a slice of wood-fired pizza against a brick wall"
+            width="900" height="1200" loading="lazy">
+        </figure>
+
+        <div class="story-copy reveal">
+          <p class="eyebrow">The kitchen</p>
+          <h2 class="display-2" id="story-title">We cook with<br><em>Texas post oak.</em></h2>
+          <p>
+            The same wood that built Central Texas barbecue burns in our oven every night. It burns hot and
+            clean, and it leaves a little smoke in every crust — a quiet nod to the city we cook in.
+          </p>
+          <p>
+            Our dough rests for two full days before it meets the fire. That slow cold ferment is where the
+            flavor comes from: a crisp, leopard-spotted edge, a tender middle, and a crust you'll actually finish.
+          </p>
+          <p>
+            No heat lamps, no conveyor belts. Just a dome of brick, a pile of oak, and a crew who watches
+            every pie like it's the only one.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <dl class="stats reveal">
+          <div class="stat">
+            <dt class="mono">Oven floor</dt>
+            <dd>900°<span>F</span></dd>
+          </div>
+          <div class="stat">
+            <dt class="mono">Bake time</dt>
+            <dd>90<span>sec</span></dd>
+          </div>
+          <div class="stat">
+            <dt class="mono">Dough rest</dt>
+            <dd>48<span>hrs</span></dd>
+          </div>
+          <div class="stat">
+            <dt class="mono">Fuel</dt>
+            <dd>100<span>% oak</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ───────────── Gallery ───────────── -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Gallery</p>
+          <h2 class="display-2" id="gallery-title">Smoke &amp; char</h2>
+        </header>
+
+        <ul class="gallery-grid" role="list">
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="Close-up of a margherita with fresh basil and melted mozzarella" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="Friends clinking glasses of red wine" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="A slice of pepperoni pizza pulled away with a long string of cheese" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="A dimly lit dining room with warm pendant lights" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="Overhead view of a pizza topped with greens and fresh cheese" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="A plated dish being served at a candlelit table" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="A wood-fired pizza with a charred, bubbled crust" width="700" height="950" loading="lazy">
+          </li>
+          <li class="arch reveal">
+            <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?auto=format&fit=crop&w=700&h=950&q=70"
+                 alt="Sliced pizza topped with arugula on parchment" width="700" height="950" loading="lazy">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ───────────── Reviews ───────────── -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="reviews-glow" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Word around town</p>
+          <h2 class="display-2" id="reviews-title">What people say</h2>
+        </header>
+
+        <div class="review-list">
+          <figure class="review reveal">
+            <blockquote>
+              <p>“The crust has that perfect leopard char. We came for one pizza and stayed for three, plus the s'mores skillet.”</p>
+            </blockquote>
+            <figcaption class="mono">Maya R. · Mueller</figcaption>
+          </figure>
+          <figure class="review reveal">
+            <blockquote>
+              <p>“Low light, a glowing oven, a good bottle of red. Easily our favorite date-night spot east of I-35.”</p>
+            </blockquote>
+            <figcaption class="mono">Jordan &amp; Priya · East Austin</figcaption>
+          </figure>
+          <figure class="review reveal">
+            <blockquote>
+              <p>“That brisket pizza shouldn't work this well. It absolutely does.”</p>
+            </blockquote>
+            <figcaption class="mono">Luis T. · Travis Heights</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── FAQ ───────────── -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-inner">
+        <header class="section-head">
+          <p class="eyebrow">Good to know</p>
+          <h2 class="display-2" id="faq-title">Questions,<br><em>answered.</em></h2>
+        </header>
+
+        <div class="faq-list">
+          <details>
+            <summary>Do you take walk-ins?</summary>
+            <p>Always. The bar and patio are first-come, first-served, and we hold a few tables each night for walk-ins. Reservations are the surest bet on Fridays and Saturdays.</p>
+          </details>
+          <details>
+            <summary>Do you have gluten-free or vegan options?</summary>
+            <p>Yes. Any pizza can be made on our gluten-free crust for $3 extra. It's baked in the same oven, so we can't promise it's safe for celiac guests. The Marinara is vegan as-is, and we're happy to swap in vegan cheese.</p>
+          </details>
+          <details>
+            <summary>How big are the pizzas?</summary>
+            <p>Each pie is about 12 inches. One per person is a hearty dinner; two pizzas and a small plate is just right for a couple.</p>
+          </details>
+          <details>
+            <summary>Can I book for a large group or private event?</summary>
+            <p>We seat groups of up to 12 through the reservation form. For bigger parties or a full buyout, call us and we'll put something together.</p>
+          </details>
+          <details>
+            <summary>Is there parking?</summary>
+            <p>There's free street parking on the surrounding blocks and a paid lot across the street. Bike racks are out front.</p>
+          </details>
+          <details>
+            <summary>Are kids and dogs welcome?</summary>
+            <p>Kids, absolutely — we have high chairs and a plain cheese pie that never fails. Well-behaved dogs are welcome on the patio.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Hours, location & reservations ───────────── -->
+    <section class="section visit" id="visit" aria-labelledby="visit-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Visit</p>
+          <h2 class="display-2" id="visit-title">Find the fire</h2>
+        </header>
+
+        <div class="visit-grid">
+          <div class="visit-info">
+            <div class="ticket reveal">
+              <p class="ticket-head mono">Hours</p>
+              <table class="hours">
+                <tbody>
+                  <tr><th scope="row">Monday</th><td>Closed — the oven rests</td></tr>
+                  <tr><th scope="row">Tue – Thu</th><td>5:00 – 10:00 pm</td></tr>
+                  <tr><th scope="row">Fri – Sat</th><td>5:00 – 11:00 pm</td></tr>
+                  <tr><th scope="row">Sunday</th><td>4:00 – 9:00 pm</td></tr>
+                </tbody>
+              </table>
+              <p class="ticket-foot mono">Kitchen closes 30 min before close</p>
+            </div>
+
+            <address class="location reveal">
+              <p class="mono label">Where</p>
+              <p class="location-line">1200 E 6th St<br>Austin, TX 78702</p>
+              <p><a class="link" href="https://www.google.com/maps/search/?api=1&query=1200+E+6th+St+Austin+TX+78702" target="_blank" rel="noopener">Get directions ↗</a></p>
+              <p class="mono label">Call</p>
+              <p><a class="link" href="tel:+15125550147">(512) 555-0147</a></p>
+            </address>
+          </div>
+
+          <!-- Reservation request form → POST /api/reserve → Resend -->
+          <div class="reserve reveal" id="reserve">
+            <h3 class="reserve-title">Reserve a table</h3>
+            <p class="reserve-sub">Send a request and we'll confirm by email, usually within a few hours. Parties over 12, please call.</p>
+
+            <noscript><p class="reserve-sub">Online booking needs JavaScript. Call us at <a class="link" href="tel:+15125550147">(512) 555-0147</a> to book.</p></noscript>
+
+            <form class="reserve-form" data-reserve-form novalidate>
+              <div class="field field-full">
+                <label for="r-name">Name</label>
+                <input id="r-name" name="name" type="text" autocomplete="name" required maxlength="80">
+              </div>
+              <div class="field">
+                <label for="r-email">Email</label>
+                <input id="r-email" name="email" type="email" autocomplete="email" required maxlength="120">
+              </div>
+              <div class="field">
+                <label for="r-phone">Phone <span class="optional">(optional)</span></label>
+                <input id="r-phone" name="phone" type="tel" autocomplete="tel" maxlength="30">
+              </div>
+              <div class="field">
+                <label for="r-date">Date</label>
+                <input id="r-date" name="date" type="date" required>
+              </div>
+              <div class="field">
+                <label for="r-time">Time</label>
+                <select id="r-time" name="time" required>
+                  <option value="">Pick a date first</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="r-party">Guests</label>
+                <select id="r-party" name="party" required>
+                  <option value="1">1 guest</option>
+                  <option value="2" selected>2 guests</option>
+                  <option value="3">3 guests</option><option value="4">4 guests</option>
+                  <option value="5">5 guests</option><option value="6">6 guests</option>
+                  <option value="7">7 guests</option><option value="8">8 guests</option>
+                  <option value="9">9 guests</option><option value="10">10 guests</option>
+                  <option value="11">11 guests</option><option value="12">12 guests</option>
+                </select>
+              </div>
+              <div class="field field-full">
+                <label for="r-notes">Anything we should know? <span class="optional">(optional)</span></label>
+                <textarea id="r-notes" name="notes" rows="3" maxlength="500" placeholder="Celebrating something? Allergies? Patio please?"></textarea>
+              </div>
+
+              <!-- Honeypot: hidden from people, bots fill it in -->
+              <div class="hp" aria-hidden="true">
+                <label for="r-company">Company</label>
+                <input id="r-company" name="company" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="field-full form-actions">
+                <button class="btn btn-ember" type="submit" data-submit>Request table</button>
+                <p class="form-status" role="status" aria-live="polite" data-status></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────── Footer ───────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="wordmark wordmark-lg" href="#top">
+          <img src="assets/logo-mark.svg" alt="" width="40" height="40">
+          <span>Kiln <em>&amp;</em> Crust</span>
+        </a>
+        <p class="mono">Wood-fired in East Austin, TX</p>
+      </div>
+
+      <a class="btn btn-ember" href="#reserve" data-reserve>Reserve a table</a>
+
+      <ul class="social" role="list">
+        <li><a class="link" href="https://www.instagram.com/kilnandcrust/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a class="link" href="https://www.tiktok.com/@kilnandcrust" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a class="link" href="mailto:hello@kilnandcrust.com">Email</a></li>
+      </ul>
+    </div>
+    <div class="container footer-base mono">
+      <p>© <span data-year>2026</span> Kiln &amp; Crust</p>
+      <p>Photos via Unsplash</p>
+    </div>
+  </footer>
+
+  <script src="data/menu.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

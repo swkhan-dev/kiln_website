@@ -1,0 +1,12 @@
+{
+  "name": "kiln-and-crust",
+  "private": true,
+  "type": "module",
+  "description": "One-page site for Kiln & Crust, a wood-fired pizzeria in Austin, TX.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
